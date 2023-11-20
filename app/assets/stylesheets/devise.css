@@ -53,3 +53,15 @@
   background-color: #f5f6f8;
   height: 100vh;
 }
+
+.login-forgot {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.login-forgot a {
+  color: #868a8f;
+  font-size: 17px;
+  text-decoration: none;
+}
