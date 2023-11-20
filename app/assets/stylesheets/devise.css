@@ -65,3 +65,15 @@
   font-size: 17px;
   text-decoration: none;
 }
+
+.reset-btn {
+  color: #868a8f;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: #fff0;
+}
+
+.top-forgot {
+  width: 100%;
+  text-align: center;
+}
