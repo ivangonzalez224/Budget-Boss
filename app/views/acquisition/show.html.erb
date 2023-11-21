@@ -9,15 +9,14 @@
         <% end %>
         <h2 class="top-forgot">Transactions</h2>
       </div>
-    <div class="transaction-top-bar">
-      Most recent
-      <span>-</span>
-    </div>
-    <div class="transaction-total">
-      <p>Total amount</p>    
-      $ <%= @category.sumamount %>
-    </div>
-    <div class='category-list'>
+      <div class="transaction-top-bar">Most recent
+        <span>-</span>
+      </div>
+      <div class="transaction-total">
+        <p>Total amount</p>    
+        $ <%= @category.sumamount %>
+      </div>
+      <div class='category-list'>
         <% @acquisitions.each do |item| %>
             <div class="transaction-item">
               <div class="item-right">
@@ -29,7 +28,10 @@
               </div>
             </div>    
         <% end %>
-    </div>
-    <footer class="category-footer">
+      </div>
+      <footer class="category-footer">
         <%= link_to 'Add New Transaction', add_new_acquisition_path(@category.id) %>
-    </footer>
+      </footer>
+    </div>
+  </div>    
+</body>
