@@ -11,4 +11,27 @@ class AcquisitionController < ApplicationController
 
     @category.update(sumamount: sum_amount)
   end
+
+  def new
+    @category = params[:id]
+    @acquisition = Acquisition.new
+  end
+
+  def create
+    @acquisition = Acquisition.new(acquisition_params)
+    @acquisition.author_id = current_user.id
+    @acquisition.save
+
+    @category_acquisition = CategoryPayment.new
+    @category_acquisition.category_id = params[:id]
+    @category_acquisition.acquisition_id = @acquisition.id
+    @category_acquisition.save
+    redirect_to acquisition_path(params[:id])
+  end
+
+  private
+
+  def acquisition_params
+    params.require(:acquisition).permit(:name, :amount)
+  end
 end
