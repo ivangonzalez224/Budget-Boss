@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   root "splash#index"
   resources :splash, only: [:index]
   resources :categories, only: [:index, :new, :create]
-  resources :acquisition, only: [:show, :new, :create]
+  resources :acquisition, only: [:show, :create]
+
+  get 'acquisition/new/:id', to: 'acquisition#new', as: 'add_new_acquisition'
   
 end
