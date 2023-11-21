@@ -7,18 +7,20 @@
     <% end %>
     <h2 class="top-forgot">Categories</h2>
   </div>
-  <div class='category'>
+  <div class='category-list'>
     <% @categories.each do |category| %>
         <%= link_to acquisition_path(category.id) do %>
             <div class="category-icon"> 
                 <img src="<%=category.icon%>" alt="Category icon" width="50" height="50"></img>
             </div>
-            <div class="category-item">
+            <div class="item-right">
+              <div class="category-item">
                 <h4><%= category.name %></h4>
-                <br />
-                <p><%= category.updated_at.to_date.strftime("%d %B %Y") %></p>
-            </div>    
-            $<%= category.sumamount %>
+                $ <%= category.sumamount %>
+                
+              </div>    
+              <span><%= category.updated_at.to_date.strftime("%d %B %Y") %></span>
+            </div>  
         <% end %>        
     <% end %>
   </div>
