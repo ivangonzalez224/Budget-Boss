@@ -22,7 +22,7 @@ class AcquisitionController < ApplicationController
     @acquisition.author_id = current_user.id
     @acquisition.save
 
-    @category_acquisition = CategoryPayment.new
+    @category_acquisition = CategoryAcquisition.new
     @category_acquisition.category_id = params[:id]
     @category_acquisition.acquisition_id = @acquisition.id
     @category_acquisition.save
