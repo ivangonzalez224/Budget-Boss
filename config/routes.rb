@@ -16,5 +16,5 @@ Rails.application.routes.draw do
   resources :acquisition, only: [:show, :create]
 
   get 'acquisition/new/:id', to: 'acquisition#new', as: 'add_new_acquisition'
-  
+  post 'acquisition/create/:id', to: 'acquisition#create', as: 'create_new_acquisition'
 end
