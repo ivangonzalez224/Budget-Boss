@@ -49,10 +49,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Creating data models**
-- **Creating controllers**
-- **Validations and Model specs.**
-- **Add Devise.**
+- **Creating data models.**
+- **Creating controllers.**
+- **Validations and Models.**
+- **Add Devise ofr authentication.**
 - **Add unit rspec and integration Capybara tests.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -62,7 +62,7 @@
  The link to the project deployed and the presentation video:
 
 - [Live Demo Link](https://test-render-dwnx.onrender.com/users/sign_up)
-- [Project presentation video]( )
+- [Project presentation video](https://www.loom.com/share/6777287c08904cc69a77c765f03a90d7?sid=0df6ba87-28c9-4fc9-b156-5f63e9ee6720)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
