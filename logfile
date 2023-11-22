@@ -1,0 +1,39 @@
+2023-11-19 21:35:07.898 -05 [3963] LOG:  starting PostgreSQL 14.10 (Homebrew) on x86_64-apple-darwin17.7.0, compiled by Apple LLVM version 10.0.0 (clang-1000.10.44.4), 64-bit
+2023-11-19 21:35:07.999 -05 [3963] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-11-19 21:35:07.999 -05 [3963] LOG:  listening on IPv6 address "::1", port 5432
+2023-11-19 21:35:08.076 -05 [3963] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-11-19 21:35:08.553 -05 [3964] LOG:  database system was interrupted; last known up at 2023-11-19 17:57:52 -05
+2023-11-19 21:35:09.565 -05 [3964] LOG:  WAL file is from different database system: WAL file database system identifier is 7303221200034049234, pg_control database system identifier is 7303219945259354830
+2023-11-19 21:35:09.565 -05 [3964] LOG:  invalid primary checkpoint record
+2023-11-19 21:35:09.565 -05 [3964] PANIC:  could not locate a valid checkpoint record
+2023-11-19 21:35:09.566 -05 [3963] LOG:  startup process (PID 3964) was terminated by signal 6: Abort trap: 6
+2023-11-19 21:35:09.566 -05 [3963] LOG:  aborting startup due to startup process failure
+2023-11-19 21:35:09.567 -05 [3963] LOG:  database system is shut down
+2023-11-19 21:43:19.164 -05 [4024] LOG:  starting PostgreSQL 14.10 (Homebrew) on x86_64-apple-darwin17.7.0, compiled by Apple LLVM version 10.0.0 (clang-1000.10.44.4), 64-bit
+2023-11-19 21:43:19.206 -05 [4024] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-11-19 21:43:19.206 -05 [4024] LOG:  listening on IPv6 address "::1", port 5432
+2023-11-19 21:43:19.300 -05 [4024] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-11-19 21:43:19.507 -05 [4025] LOG:  database system was interrupted; last known up at 2023-11-19 17:57:52 -05
+2023-11-19 21:43:20.300 -05 [4025] LOG:  WAL file is from different database system: WAL file database system identifier is 7303221200034049234, pg_control database system identifier is 7303219945259354830
+2023-11-19 21:43:20.300 -05 [4025] LOG:  invalid primary checkpoint record
+2023-11-19 21:43:20.300 -05 [4025] PANIC:  could not locate a valid checkpoint record
+2023-11-19 21:43:20.300 -05 [4024] LOG:  startup process (PID 4025) was terminated by signal 6: Abort trap: 6
+2023-11-19 21:43:20.301 -05 [4024] LOG:  aborting startup due to startup process failure
+2023-11-19 21:43:20.302 -05 [4024] LOG:  database system is shut down
+2023-11-19 21:51:31.521 -05 [5542] LOG:  starting PostgreSQL 14.10 (Homebrew) on x86_64-apple-darwin17.7.0, compiled by Apple LLVM version 10.0.0 (clang-1000.10.44.4), 64-bit
+2023-11-19 21:51:31.548 -05 [5542] LOG:  listening on IPv6 address "::1", port 5432
+2023-11-19 21:51:31.548 -05 [5542] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-11-19 21:51:31.549 -05 [5542] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-11-19 21:51:31.554 -05 [5543] LOG:  database system was shut down at 2023-11-19 21:51:22 -05
+2023-11-19 21:51:31.562 -05 [5542] LOG:  database system is ready to accept connections
+2023-11-19 21:51:38.379 -05 [5553] FATAL:  role "wallet" does not exist
+2023-11-19 21:51:38.558 -05 [5554] FATAL:  role "wallet" does not exist
+2023-11-19 21:52:16.607 -05 [5564] FATAL:  database "wallet_development" does not exist
+2023-11-20 11:44:07.676 -05 [2932] LOG:  starting PostgreSQL 14.10 (Homebrew) on x86_64-apple-darwin17.7.0, compiled by Apple LLVM version 10.0.0 (clang-1000.10.44.4), 64-bit
+2023-11-20 11:44:07.765 -05 [2932] LOG:  could not bind IPv6 address "::1": Address already in use
+2023-11-20 11:44:07.765 -05 [2932] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2023-11-20 11:44:07.766 -05 [2932] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2023-11-20 11:44:07.766 -05 [2932] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2023-11-20 11:44:07.766 -05 [2932] WARNING:  could not create listen socket for "localhost"
+2023-11-20 11:44:07.766 -05 [2932] FATAL:  could not create any TCP/IP sockets
+2023-11-20 11:44:07.767 -05 [2932] LOG:  database system is shut down
